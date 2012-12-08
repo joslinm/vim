@@ -1,9 +1,10 @@
 " Author: Seth Mason
 " Created: 19 Nov 2003 10:20:19
-" Last-modified: 05 Jul 2012 07:51:41 PM
+" Last-modified: 08 Dec 2012 06:26:32 PM
 " All my Vim commands for the taking
 " Works on cygwin but not very well on unix machines...still trying to figure
 " it out
+call pathogen#infect()
 
 " Switch indents on file type
 filetype plugin indent on
