@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd ~
 if [ -d vim ]
   then
     sudo rm -r vim
@@ -10,4 +11,4 @@ if [ -d .vim ]
     sudo rm -r .vim
 fi
 sudo mv vim .vim 
-sudo mv .vim/.vimrc .vimrc
+sudo cp .vim/.vimrc .vimrc
