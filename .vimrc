@@ -4,6 +4,7 @@
 " All my Vim commands for the taking
 " Works on cygwin but not very well on unix machines...still trying to figure
 " it out
+call pathogen#infect()
 
 " Switch indents on file type
 filetype plugin indent on
